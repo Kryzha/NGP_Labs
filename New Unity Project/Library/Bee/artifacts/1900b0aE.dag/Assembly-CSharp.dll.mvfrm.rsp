@@ -33,7 +33,11 @@ Library\Bee\artifacts\mvdfrm\Unity.Networking.Editor.ref.dll_96C11E09CCB711BF.mv
 Library\Bee\artifacts\mvdfrm\Unity.Networking.Transport.ref.dll_EFD27BE74CCF752D.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Sysroot.Linux_x86_64.ref.dll_24C7B1A47E18827F.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.SysrootPackage.Editor.ref.dll_51BD9AC91712BC0C.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.TextMeshPro.Editor.ref.dll_159E061D77A10B86.mvfrm
+Library\Bee\artifacts\mvdfrm\Unity.TextMeshPro.ref.dll_84A4293DBDD182DB.mvfrm
 Library\Bee\artifacts\mvdfrm\Unity.Toolchain.Win-x86_64-Linux-x86_64.ref.dll_224B50E477DB13E8.mvfrm
+Library\Bee\artifacts\mvdfrm\UnityEditor.UI.ref.dll_4C98D3F7040CD4F5.mvfrm
+Library\Bee\artifacts\mvdfrm\UnityEngine.UI.ref.dll_08FEAA520A2EFD60.mvfrm
 Library\Bee\artifacts\mvdfrm\UnityEditor.AccessibilityModule.dll_16115878329A3750.mvfrm
 Library\Bee\artifacts\mvdfrm\UnityEditor.AdaptivePerformanceModule.dll_9A75A9886DA7341C.mvfrm
 Library\Bee\artifacts\mvdfrm\UnityEditor.BuildProfileModule.dll_3D81830255FB75DD.mvfrm

@@ -48,6 +48,16 @@
       "source": "registry",
       "testable": false
     },
+    "com.unity.ugui@2.0.0": {
+      "name": "com.unity.ugui",
+      "displayName": "Unity UI",
+      "resolvedPath": "C:\\Users\\ikryzh300\\Desktop\\NGP_Labs\\New Unity Project\\Library\\PackageCache\\com.unity.ugui@529b01454a55",
+      "fingerprint": "529b01454a5505bdf629ef2d4df32fecada24ec3",
+      "editorCompatibility": "2019.2.0a1",
+      "version": "2.0.0",
+      "source": "builtin",
+      "testable": false
+    },
     "com.unity.modules.accessibility@1.0.0": {
       "name": "com.unity.modules.accessibility",
       "displayName": "Accessibility",

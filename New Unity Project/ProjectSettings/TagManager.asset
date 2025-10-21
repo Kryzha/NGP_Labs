@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Ground
   - ScoreItem
+  - TargetPracticePoint
+  - MovingPlatform
+  - Pickup
   layers:
   - Default
   - TransparentFX
