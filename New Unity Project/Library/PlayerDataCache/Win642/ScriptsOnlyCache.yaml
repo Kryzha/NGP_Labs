@@ -23,10 +23,8 @@ ScriptsOnlyBuild:
     - UnityEditor.Tilemaps.TilemapPrefabStageHelper
     Unity.Netcode.Editor.dll:
     - Unity.Netcode.Editor.Configuration.NetcodeForGameObjectsProjectSettings
-    - Unity.Netcode.Editor.NetworkBehaviourEditor
-    - Unity.Netcode.Editor.NetworkObjectEditor
-    - Unity.Netcode.Editor.NetworkTransformEditor
     Unity.Netcode.Runtime.dll:
+    - Unity.Netcode.Components.NetworkTransform
     - Unity.Netcode.NetworkManager
     - Unity.Netcode.NetworkObject
     - Unity.Netcode.NetworkPrefabsList
@@ -87,21 +85,23 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 25018}
+      Script: {instanceID: 22376}
     - Class: 114
-      Script: {instanceID: 25706}
+      Script: {instanceID: 22470}
     - Class: 114
-      Script: {instanceID: 26242}
+      Script: {instanceID: 22854}
     - Class: 114
-      Script: {instanceID: 26334}
+      Script: {instanceID: 23046}
     - Class: 114
-      Script: {instanceID: 28440}
+      Script: {instanceID: 23328}
     - Class: 114
-      Script: {instanceID: 28484}
+      Script: {instanceID: 23370}
     - Class: 114
-      Script: {instanceID: 28584}
+      Script: {instanceID: 24510}
     - Class: 114
-      Script: {instanceID: 32306}
+      Script: {instanceID: 25726}
+    - Class: 114
+      Script: {instanceID: 25906}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -121,16 +121,40 @@ ScriptsOnlyBuild:
     className: CinemachinePixelPerfect
   - hash:
       serializedVersion: 2
+      Hash: b8c8d81cda8d42b59f8973dddba15864
+    assemblyName: Unity.Netcode.Runtime
+    namespaceName: 
+    className: AttachableNode
+  - hash:
+      serializedVersion: 2
       Hash: 80aeb876b0e95f6256bbfcbf33e26e84
     assemblyName: Unity.2D.IK.Runtime
     namespaceName: UnityEngine.U2D.IK
     className: LimbSolver2D
   - hash:
       serializedVersion: 2
+      Hash: 246af38305cd3e613460cb6f859a6337
+    assemblyName: Unity.Netcode.Runtime
+    namespaceName: Unity.Netcode.Components
+    className: NetworkAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: 84a3064bb1aa7609e99307c3799b88d2
+    assemblyName: Assembly-CSharp
+    namespaceName: Unity.Multiplayer.Samples.Utilities.ClientAuthority
+    className: ClientNetworkTransform
+  - hash:
+      serializedVersion: 2
       Hash: 991def3bb38fe468342c445b01daabcf
     assemblyName: Unity.2D.Animation.Runtime
     namespaceName: UnityEngine.U2D.Animation
     className: DeformationManager
+  - hash:
+      serializedVersion: 2
+      Hash: e76b442cf7afadf5c5a087f68352d8f9
+    assemblyName: Unity.Netcode.Runtime
+    namespaceName: Unity.Netcode.Components
+    className: NetworkTransform
   - hash:
       serializedVersion: 2
       Hash: 1e6aa1f905f62bcd0558226c29920412
@@ -151,6 +175,12 @@ ScriptsOnlyBuild:
     className: SpriteLibrarySourceAsset
   - hash:
       serializedVersion: 2
+      Hash: dda83e2ed161157731c3ed1e896e9747
+    assemblyName: Unity.Netcode.Runtime
+    namespaceName: Unity.Netcode.Components
+    className: NetworkRigidbody2D
+  - hash:
+      serializedVersion: 2
       Hash: 17a71904793c41964b29cf2c93c6e006
     assemblyName: Unity.2D.IK.Runtime
     namespaceName: UnityEngine.U2D.IK
@@ -161,6 +191,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.2D.Animation.Runtime
     namespaceName: UnityEngine.U2D.Animation
     className: SkeletonAsset
+  - hash:
+      serializedVersion: 2
+      Hash: dcf09bd0c10fdebbdd02b722d24cbfe3
+    assemblyName: Unity.Netcode.Runtime
+    namespaceName: Unity.Netcode
+    className: NetworkObject
   - hash:
       serializedVersion: 2
       Hash: c27554f9feec0ec62923b4c200a63b9e
@@ -187,6 +223,12 @@ ScriptsOnlyBuild:
     className: RuleTile
   - hash:
       serializedVersion: 2
+      Hash: 458b792498cf498ac01899f57951e3a9
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: PlayerMovement
+  - hash:
+      serializedVersion: 2
       Hash: 00bcfff150a932126a4ea840d0861a6b
     assemblyName: Unity.2D.SpriteShape.Runtime
     namespaceName: UnityEngine.U2D
@@ -199,6 +241,18 @@ ScriptsOnlyBuild:
     className: AdvancedRuleOverrideTile
   - hash:
       serializedVersion: 2
+      Hash: 59d31983bc1807d0ba6e41b189088925
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: MultiplayerManager
+  - hash:
+      serializedVersion: 2
+      Hash: 4c118854e6afe9b8e9a4e92ed239ef53
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: OwnerNetworkAnimator
+  - hash:
+      serializedVersion: 2
       Hash: dd0d6c663a70a021288c321392464a20
     assemblyName: Unity.2D.SpriteShape.Runtime
     namespaceName: UnityEngine.U2D
@@ -209,6 +263,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.2D.PixelPerfect
     namespaceName: UnityEngine.U2D
     className: PixelPerfectCamera
+  - hash:
+      serializedVersion: 2
+      Hash: 5ba06da96b89cac36dea64098dbb3061
+    assemblyName: Unity.Netcode.Runtime
+    namespaceName: Unity.Netcode.Components
+    className: NetworkRigidbody
   - hash:
       serializedVersion: 2
       Hash: 47d50f529890b9237021f88334dc1cf6
@@ -253,6 +313,12 @@ ScriptsOnlyBuild:
     className: IsometricRuleTile
   - hash:
       serializedVersion: 2
+      Hash: 5db4a2370df3d3f6e391492ece620216
+    assemblyName: Unity.Netcode.Runtime
+    namespaceName: Unity.Netcode
+    className: NetworkManager
+  - hash:
+      serializedVersion: 2
       Hash: 5f27242e1ad2aadb1faa604dd779a464
     assemblyName: Unity.2D.Animation.Runtime
     namespaceName: UnityEngine.U2D.Animation
@@ -265,10 +331,22 @@ ScriptsOnlyBuild:
     className: FabrikSolver2D
   - hash:
       serializedVersion: 2
+      Hash: 53fd4702427b9b6b0fa00dea9512de2f
+    assemblyName: Unity.Netcode.Runtime
+    namespaceName: Unity.Netcode.Components
+    className: AnticipatedNetworkTransform
+  - hash:
+      serializedVersion: 2
       Hash: fd7983aadddd0b1b9f4ce82ed537bde5
     assemblyName: Unity.2D.SpriteShape.Runtime
     namespaceName: UnityEngine.U2D
     className: SpriteShape
+  - hash:
+      serializedVersion: 2
+      Hash: 0fc25ca92ffdadf00ea44f8f133a1d8f
+    assemblyName: Unity.Netcode.Runtime
+    namespaceName: Unity.Netcode.Components
+    className: ComponentController
   - hash:
       serializedVersion: 2
       Hash: 1131d16e2402427640760042b5486b11
@@ -287,66 +365,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.2D.Tilemap.Extras
     namespaceName: UnityEngine.Tilemaps
     className: AnimatedTile
-  - hash:
-      serializedVersion: 2
-      Hash: e9db29e31ba60222fa1690a9445f34f5
-    assemblyName: Unity.2D.Tilemap.Extras
-    namespaceName: UnityEngine.Tilemaps
-    className: RuleOverrideTile
-  - hash:
-      serializedVersion: 2
-      Hash: b8c8d81cda8d42b59f8973dddba15864
-    assemblyName: Unity.Netcode.Runtime
-    namespaceName: 
-    className: AttachableNode
-  - hash:
-      serializedVersion: 2
-      Hash: 246af38305cd3e613460cb6f859a6337
-    assemblyName: Unity.Netcode.Runtime
-    namespaceName: Unity.Netcode.Components
-    className: NetworkAnimator
-  - hash:
-      serializedVersion: 2
-      Hash: e76b442cf7afadf5c5a087f68352d8f9
-    assemblyName: Unity.Netcode.Runtime
-    namespaceName: Unity.Netcode.Components
-    className: NetworkTransform
-  - hash:
-      serializedVersion: 2
-      Hash: dda83e2ed161157731c3ed1e896e9747
-    assemblyName: Unity.Netcode.Runtime
-    namespaceName: Unity.Netcode.Components
-    className: NetworkRigidbody2D
-  - hash:
-      serializedVersion: 2
-      Hash: dcf09bd0c10fdebbdd02b722d24cbfe3
-    assemblyName: Unity.Netcode.Runtime
-    namespaceName: Unity.Netcode
-    className: NetworkObject
-  - hash:
-      serializedVersion: 2
-      Hash: 5ba06da96b89cac36dea64098dbb3061
-    assemblyName: Unity.Netcode.Runtime
-    namespaceName: Unity.Netcode.Components
-    className: NetworkRigidbody
-  - hash:
-      serializedVersion: 2
-      Hash: 5db4a2370df3d3f6e391492ece620216
-    assemblyName: Unity.Netcode.Runtime
-    namespaceName: Unity.Netcode
-    className: NetworkManager
-  - hash:
-      serializedVersion: 2
-      Hash: 53fd4702427b9b6b0fa00dea9512de2f
-    assemblyName: Unity.Netcode.Runtime
-    namespaceName: Unity.Netcode.Components
-    className: AnticipatedNetworkTransform
-  - hash:
-      serializedVersion: 2
-      Hash: 0fc25ca92ffdadf00ea44f8f133a1d8f
-    assemblyName: Unity.Netcode.Runtime
-    namespaceName: Unity.Netcode.Components
-    className: ComponentController
   - hash:
       serializedVersion: 2
       Hash: f68694d84cecf7caf14b38d9567595f5
@@ -373,6 +391,12 @@ ScriptsOnlyBuild:
     className: UnityTransport
   - hash:
       serializedVersion: 2
+      Hash: e9db29e31ba60222fa1690a9445f34f5
+    assemblyName: Unity.2D.Tilemap.Extras
+    namespaceName: UnityEngine.Tilemaps
+    className: RuleOverrideTile
+  - hash:
+      serializedVersion: 2
       Hash: ef39134ba89ab397bae8987429f18c6a
     assemblyName: Unity.Netcode.Runtime
     namespaceName: Unity.Netcode.Components
@@ -383,30 +407,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Netcode.Runtime
     namespaceName: Unity.Netcode
     className: NetworkPrefabsList
-  - hash:
-      serializedVersion: 2
-      Hash: 59d31983bc1807d0ba6e41b189088925
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: MultiplayerManager
-  - hash:
-      serializedVersion: 2
-      Hash: f7398545dc873c9755d988fe3b75ef12
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: PlayerMovement
-  - hash:
-      serializedVersion: 2
-      Hash: 84a3064bb1aa7609e99307c3799b88d2
-    assemblyName: Assembly-CSharp
-    namespaceName: Unity.Multiplayer.Samples.Utilities.ClientAuthority
-    className: ClientNetworkTransform
-  - hash:
-      serializedVersion: 2
-      Hash: 4c118854e6afe9b8e9a4e92ed239ef53
-    assemblyName: Assembly-CSharp
-    namespaceName: 
-    className: OwnerNetworkAnimator
   platform: 19
   scenePathNames:
   - Assets/Scenes/MainScene.unity

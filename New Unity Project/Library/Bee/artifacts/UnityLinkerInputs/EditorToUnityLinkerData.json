@@ -147,6 +147,13 @@
         {
             "managedAssemblyName": "Unity.Netcode.Runtime.dll",
             "nativeClass": "",
+            "fullManagedTypeName": "Unity.Netcode.Components.NetworkTransform",
+            "moduleName": "",
+            "usedInScenes": []
+        },
+        {
+            "managedAssemblyName": "Unity.Netcode.Runtime.dll",
+            "nativeClass": "",
             "fullManagedTypeName": "Unity.Netcode.NetworkManager",
             "moduleName": "",
             "usedInScenes": []
